@@ -18,17 +18,21 @@ Ce projet a pour but de fournir la position et l'orientation d'un robot mobile u
 
 ### Utilisation
 #### Setup
-Brancher la carte rtk2b lite sur la carte rtk2b budget qui servira de rover (cf image) 
+Brancher la carte rtk2b lite sur la carte rtk2b budget qui servira de rover 
+![image du montage des cartes](images/budget_plus_lite.jpg)
 
 Si ce n'est pas déja le cas, il faut charger les bon fichier de configuration dans les cartes correspondantes.
 
 * Le fichier Base dans la carte seule qui servira de base. Connexion via le port usb (power + gps).
+![image branchement base](images/Base.jpg)
 * Le fichier 5Hz simpleRTK2Blite (Moving Base) dans la carte budget qui servira de rover.  Connexion via le port usb (power + gps/ en rouge).
 * Le fichier 5Hz simpleRTK2B (Rover) dans la carte lite. Connexion via le deuxieme port usb de la carte budget rover(en vert).
+![image rover](images/Rover_branchement.jpg)
 * Le chargement de fichier dans les cartes se fait via le logiciel u-center.
 [Tutoriel de la marque](https://www.ardusimple.com/configuration-files/)
 
-Pour le rover, l'antenne se situant à l'avant du robot doit etre branchée sur la carte budget et l'antenne se situant à l'arrière doit etre branchée sur la carte lite. (cf photo)
+Pour le rover, l'antenne se situant à l'avant du robot doit etre branchée sur la carte budget en rouge et l'antenne se situant à l'arrière doit etre branchée sur la carte lite(en vert).
+![image_antennes rover](images/Rover_Antennes.jpg)
 
 Alimenter la base puis le rover via le port usb (power + gps) 
 
