@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<arg name="topic" default="trajectory"/>
+
+	<node pkg="hector_trajectory_server" type="hector_trajectory_server" name="hector_trajectory_server" output="screen">
+		<param name="target_frame_name" type="string" value="map" />
+		<param name="source_frame_name" type="string" value="trajectory" />
+		<param name="trajectory_update_rate" type="double" value="20" />
+		<param name="trajectory_publish_rate" type="double" value="20" />
+		<remap from="trajectory" to="$(arg topic)"/>
+	</node>
+
+</launch>
+
+
