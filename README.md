@@ -48,7 +48,7 @@ Avec le rover brancher au robot, dans le fichier /etc/udev/rules.d/50-ardusimple
 La position et l'orientation du robot devrait apparaitre sur Rviz
 
 
-#### Potentiel problème 
+#### Potentiels problèmes 
 
 * Le gps ne renvoie pas des messages NAV-PVT et NAV-RELPOSNED mais des messages NMEA
   
