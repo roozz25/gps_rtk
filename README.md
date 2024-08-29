@@ -13,8 +13,8 @@ Ce projet a pour but de fournir la position et l'orientation d'un robot mobile u
 ### Fichiers de configuration
 
 * Base
-* 5Hz simpleRTK2Blite (Moving Base)
-* 5Hz simpleRTK2B (Rover)
+* 5Hz simpleRTK2Blite Heading kit Moving Base
+* 5Hz simpleRTK2B Heading kit Rover
 
 ### Utilisation
 #### Setup
