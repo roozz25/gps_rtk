@@ -44,6 +44,8 @@ Avec le rover brancher au robot, dans le fichier /etc/udev/rules.d/50-ardusimple
 * Lancer ROS avec le fichier launch hector.launch 
 * Lancer les scripts frame_change.py 1 et 2 (1 permet l'affichage de la pose/fleche, 2 permet le tracer de la trajectoire)
 * Lancer Rviz
+* Ajouter un display de type Pose sur le topic /gps_rover/fix
+* Ajouter un display de type Path sur le topic /trajectory
 * Lancer le script position_orientation.py
 La position et l'orientation du robot devrait apparaitre sur Rviz
 
